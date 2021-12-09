@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  color: #40514e;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #07686b;
+  font-family: montserrat;
+  font-size: 2rem;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 150px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain-img {
+  position: relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+nav {
+  display: none;
+}
+
+.container {
+  display: flex;
+  place-content: space-between;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img {
+  width: 25%;
+  float: left;
+  margin-right: 35px;
+}
+.img2 {
+  width: 25%;
+  float: right;
+  margin-right: 35px;
+}
+
+.sbozz-pics {
+  width: 25%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.pounded-yam {
+  width: 54%;
+  margin: auto;
+  font-size: 1.7rem;
+}
+
+.contact-mesage {
+  width: 40%;
+  margin: 35px auto 55px;
+}
+
+.botton {
+  background-image: linear-gradient(rgb(0, 233, 221), rgb(6, 223, 176));
+  font-family: montserrat;
+  font-weight: bold;
+  color: #07686b;
+  padding: 18px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.botton:hover {
+  background-color: rgba(0, 255, 149, 0.808);
+  box-shadow: 0 12px 16px 0 rgba(201, 201, 201, 0.24),
+    0 17px 50px 0 rgba(209, 209, 209, 0.19);
+  background-image: linear-gradient(rgb(6, 223, 176), rgb(0, 233, 221));
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: montserrat;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright-text {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 30px auto;
+}
